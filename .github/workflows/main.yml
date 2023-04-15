@@ -4,4 +4,7 @@ jobs:
  Descobrindo-o-github-action-workflow:
    runs-on: ubuntu-latest
    steps:
-   - run: echo "$({{ github.event_name}} evento disparado para esse job" 
+   - run: echo "$(( github. event _name)) evento disparado para esse job "
+   - run: echo " o sistemas $( runner.os )) esta radadndo"
+   - run: echo "Repo-name S(( github.repository])"
+   - run: echo "Repo-branch $(( github.ref])"
