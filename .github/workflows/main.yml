@@ -1,7 +1,7 @@
-name: Exemplo da aula de PEDII - by slmn
+name: Exemplo da aula de PEDII - by slmn 
 on: [push]
 jobs:
  Descobrindo-o-github-action-workflow:
    runs-on: ubuntu-latest
    steps:
-   - run: echo "$({{ github.event_name}} evento disparado para esse job"
+   - run: echo "$({{ github.event_name}} evento disparado para esse job" 
