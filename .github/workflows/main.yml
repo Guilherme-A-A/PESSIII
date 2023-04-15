@@ -8,3 +8,12 @@ jobs:
    - run: echo " o sistemas $( runner.os )) esta radadndo"
    - run: echo "Repo-name S(( github.repository])"
    - run: echo "Repo-branch $(( github.ref])"
+   
+   
+ Mostrando_o_repositorio:
+ name: Segundo Job
+   name: Segundo Job runs-on: ubuntu-18.04 
+   steps:
+    - run: echo "Repo-name $({ github. repository))"
+    - run: echo "Repo-branch S(( github.ref j)"
+    - run: echo " o sistemas $(( runner.os ]) esta rodadndo"
