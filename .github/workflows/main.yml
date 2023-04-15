@@ -1,4 +1,4 @@
-name: Exemplo da aula de PEDII - by slmn 
+name: Exemplo da aula de PEDIII - by slmn
 on: [push]
 jobs:
  Descobrindo-o-github-action-workflow:
